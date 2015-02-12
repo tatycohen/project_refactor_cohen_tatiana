@@ -50,6 +50,7 @@ a {
 
 #header-wrapper {
     overflow: hidden;
+    padding: 15px;
 }
 
 #header {
@@ -60,16 +61,16 @@ a {
 /* Logo */
 
 #logo {
-    float: left;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
+    text-align: center;
 }
 
 #logo h1 {
     line-height: 120px;
-    letter-spacing: -2px;
-    font-size: 3.8em;
+    letter-spacing: -1px;
+    font-size: 5.5em;
 }
 
 #logo h1 a {
@@ -100,27 +101,20 @@ a {
 /* Menu */
 
 #menu {
-    float: right;
-    height: 90px;
     margin: 0 auto;
     padding: 0;
 }
 
 #menu ul {
-    float: right;
     margin: 0;
-    padding: 20px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
     list-style: none;
     line-height: normal;
 }
 
-#menu li {
-    float: left;
-}
-
 #menu a {
     display: block;
-    line-height: 100px;
+    line-height: 30px;
     margin-right: 1px;
     padding: 0px 20px 0px 20px;
     text-decoration: none;
@@ -144,13 +138,12 @@ a {
 
 #page {
     margin: 0 auto;
-    padding: 30px 0px;
+    padding: 30px 15px;
 }
 
 /* Content */
 
 #content {
-    float: right;
     padding: 0px 0px 0px 0px;
 }
 
@@ -199,8 +192,7 @@ a {
 }
 
 .more {
-    display: block;
-    float: left;
+    display: inline-block; 
     padding: 5px 5px;
     margin-right: 10px;
     background: #222222;
@@ -210,8 +202,7 @@ a {
 }
 
 .comments {
-    display: block;
-    float: left;
+    display: inline-block;
     padding: 5px 5px;
     background: #222222;
     color: #FFFFFF;
@@ -222,9 +213,8 @@ a {
 /* Sidebar */
 
 #sidebar {
-    float: left;
     margin: 0px;
-    padding: 30px 0px 0px 0px;
+    padding: 0;
 }
 
 #sidebar ul {
@@ -265,7 +255,7 @@ a {
 
 #sidebar h2 {
     height: 38px;
-    padding: 0px 0px 30px 0px;
+    padding: 30px 0px 30px 0px;
     letter-spacing: -.5px;
     font-size: 1.8em;
     color: #222222;
@@ -292,7 +282,7 @@ a {
 #footer {
     height: 140px;
     margin: 0 auto;
-    padding: 50px 0 15px 0;
+    padding: 50px 15px 15px;
     font-family: 'Abel', sans-serif;
 }
 
