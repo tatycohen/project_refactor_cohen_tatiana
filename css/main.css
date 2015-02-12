@@ -311,3 +311,27 @@ a {
 }
 
 
+/* ------------Options for different phones--------------- */
+
+@media (min-width: 360px) {
+
+    #logo h1 {
+        font-size: 6.2em;
+    }
+
+}
+
+@media (min-width: 568px) {
+
+    #logo {
+        text-align: left;
+    }
+
+    #menu li{
+        width: 19%;
+        display: inline-block;
+    }
+    
+}
+
+
