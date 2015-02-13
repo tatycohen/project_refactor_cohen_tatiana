@@ -331,7 +331,54 @@ a {
         width: 19%;
         display: inline-block;
     }
-    
+
 }
+
+/* ------------Tablet Options --------------- */
+
+
+@media (min-width: 768px)  {
+
+    #header-wrapper {
+        padding: 25px;
+    }
+
+    #page {
+        margin: 0 auto;
+        padding: 30px 25px;
+    }
+
+}
+
+@media (min-width: 900px)  {
+
+    #logo {
+        float: left;
+        width: 30%;
+    }
+
+    #logo h1{
+        line-height: 90px;
+        letter-spacing: -1px;
+        font-size: 3.5em;
+    }
+
+    /* Menu */
+
+    #menu {
+        float: right;
+        width: 50%;
+        margin: 0 auto;
+        padding-bottom: 20px ;
+    }
+
+    #menu a{
+        line-height: 100px;
+        padding: 0px 10px;
+    }
+   
+}
+
+
 
 
