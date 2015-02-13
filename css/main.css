@@ -393,6 +393,42 @@ a {
     }
 }
 
+/* ------------Desktop Options --------------- */
 
+@media (min-width:1025px) {
 
+    .container {
+        width: 1000px;
+    }
 
+    #header {
+        width: 1000px;
+    }
+
+    #page {
+        width: 1000px;
+    }
+
+    #banner {
+        width: 1000px;
+    }
+} 
+
+@media (min-width:1920px) {
+
+    .container {
+        width: 1300px;
+    }
+
+    #header {
+        width: 1300px;
+    }
+
+    #page {
+        width: 1300px;
+    }
+
+    #banner {
+        width: 1300px;
+    }
+} 
