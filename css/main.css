@@ -405,11 +405,15 @@ a {
         width: 1000px;
     }
 
-    #page {
+    #banner {
         width: 1000px;
     }
+}
 
-    #banner {
+
+@media (min-width:1065px) {
+
+    #page {
         width: 1000px;
     }
 }
