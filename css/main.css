@@ -187,7 +187,8 @@ a {
     margin-bottom: 30px;
 }
 
-.more {
+.more,
+.comments {
     display: inline-block;
     padding: 5px 5px;
     margin-right: 10px;
@@ -197,13 +198,8 @@ a {
     text-decoration: none;
 }
 
-.comments {
-    display: inline-block;
-    padding: 5px 5px;
-    background: #222222;
-    color: #FFFFFF;
-    text-align: center;
-    text-decoration: none;
+.more {
+    margin-right: 10px;
 }
 
 /* Sidebar */
