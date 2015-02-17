@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #050505 url(../img/img01.jpg) repeat;
+    background: #FFFFFF url(../img/img05.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #5B5B5B;
@@ -36,10 +36,6 @@ p, ul, ol {
 
 a {
     color: #5E5E5E;
-}
-
-#wrapper {
-    background: #FFFFFF url(../img/img05.jpg) repeat;
 }
 
 .container {
@@ -280,6 +276,7 @@ a {
 /* Footer */
 
 #footer {
+    background: #050505 url(../img/img01.jpg) repeat;
     height: 140px;
     margin: 0 auto;
     padding: 50px 15px 15px;
