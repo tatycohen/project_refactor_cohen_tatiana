@@ -192,7 +192,7 @@ a {
 }
 
 .more {
-    display: inline-block; 
+    display: inline-block;
     padding: 5px 5px;
     margin-right: 10px;
     background: #222222;
@@ -389,7 +389,7 @@ a {
     #sidebar {
         float: left;
         width: 25%;
-       
+
     }
 }
 
@@ -412,7 +412,7 @@ a {
     #banner {
         width: 1000px;
     }
-} 
+}
 
 @media (min-width:1920px) {
 
@@ -431,4 +431,4 @@ a {
     #banner {
         width: 1300px;
     }
-} 
+}
